@@ -1,0 +1,111 @@
+.fileUploadWrapper {
+	width: max-content;
+	margin: 0 auto;
+	margin-top: 50px;
+	padding: 20px;
+	border: 1px solid #eee;
+	background: #fff;
+	background: #eee;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	box-shadow: 0 5px 20px rgb(0, 0, 0, 0.1);
+}
+
+.uploadHeader {
+	font-weight: 300;
+	font-size: 29px;
+	line-height: 55px;
+	color: rgb(0, 0, 0, 0.8);
+}
+
+.myDropZone {
+	border: 2px dashed rgba(158, 217, 235, 0.4) !important;
+	background: rgb(0, 153, 255, 0.09);
+	height: 200px !important;
+	min-width: 900px;
+	border-radius: 10px;
+	max-width: 900px;
+	max-height: 100px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.myDropZone:active {
+	background: #fff;
+}
+
+.myDropZone p {
+	margin: 0 auto;
+	margin-top: 30px;
+	font-size: 19px;
+	text-align: center;
+}
+
+button {
+	background: rgb(11, 145, 235) !important;
+	color: #fff;
+	font-weight: bold;
+	margin: 5px !important;
+	padding: 10px 20px !important;
+	border-radius: 7px !important;
+	border: 1px solid rgb(0, 153, 255, 0.2);
+	box-shadow: 0 2px 10px rgb(0, 153, 255, 0.2);
+	-webkit-border-radius: 7px !important;
+	-moz-border-radius: 7px !important;
+	-ms-border-radius: 7px !important;
+	-o-border-radius: 7px !important;
+	text-transform: capitalize !important;
+}
+
+.fileUploadWrapper input {
+	text-align: left !important;
+	margin: 10px 0;
+	margin-right: 5px;
+	border: 1px solid rgb(0, 0, 0, 0.4);
+	background: #fff;
+	border-radius: 7px;
+	padding: 10px 10px;
+	width: 60%;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+}
+
+input:disabled {
+	background: #ccc;
+}
+
+.divider {
+	margin-top: 20px;
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	line-height: 0.1;
+	text-align: center;
+}
+
+.divider span {
+	background: #eee;
+	padding: 5px 10px;
+	font-size: 19px;
+}
+
+.Grid {
+	margin-top: 20px;
+}
+
+h3 {
+	font-weight: 300;
+}
+
+.Grid button {
+	width: 30%;
+}
+
+.Options button {
+	margin-left: 10px !important;
+}
